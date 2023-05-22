@@ -1,0 +1,68 @@
+/* This is the CSS code for styling the HTML elements in the document */
+
+h1 {
+  padding: 10px 20px; /* This adds 10px of padding on the top and bottom and 20px of padding on the left and right */
+  color: brown; /* This sets the text color of the h1 element to brown */
+}
+
+img {
+  border: 2px solid blue; /* This adds a 2px blue border around the image */
+  width: 300px; /* This sets the width of the image to 300px */
+  height: 200px; /* This sets the height of the image to 200px */
+  position: relative; /* This sets the position of the image to relative, allowing it to be moved with the top and left properties */
+  top: 50%; /* This moves the image down 50% from its original position */
+  left: 50%; /* This moves the image right 50% from its original position */
+  transform: translate(-50%, -10%); /* This moves the image up 10% and left 50% from its original position */
+}
+
+figcaption {
+ align-items: center; /* This aligns the items inside the caption element along the horizontal center */
+  justify-content: center; /* This aligns the items inside the caption element along the vertical center */
+}
+
+#para1 {
+  color: navy; /* This sets the text color of the element with the id 'para1' to navy */
+}
+
+ul {
+  background-color: CadetBlue; /* This sets the background color of all unordered lists to CadetBlue */
+}
+
+figcaption {
+  font-weight: bold; /* This makes the text inside the caption element bold */
+  text-align: center; /* This centers the text inside the caption element */
+  font-size: 20px; /* This sets the font size of the text inside the caption element to 20px */
+}
+
+div {
+  border-radius: 5px; /* This adds a 5px border radius to all div elements */
+}
+
+h2 {
+  font-style: italic; /* This sets the font style of all h2 elements to italic */
+}
+
+h3 {
+  width: 25%; /* This sets the width of all h3 elements to 25% */
+}
+
+aside {
+  padding-left: 20px; /* This adds 20px of padding on the left side of all aside elements */
+}
+
+#para2 {
+  border-top: 5px solid springgreen; /* This adds a 5px solid springgreen border on the top of the element with the id 'para2' */
+  border-right: 2px dotted springgreen; /* This adds a 2px dotted springgreen border on the right of the element with the id 'para2' */
+  border-bottom: 3px dashed springgreen; /* This adds a 3px dashed springgreen border on the bottom of the element with the id 'para2' */
+  border-left: 4px double springgreen; /* This adds a 4px double springgreen border on the left of the element with the id 'para2' */
+}
+
+.highlight {
+  font-size: 25px; /* This sets the font size of all elements with the class 'highlight' to 25px */
+  line-height: 20px; /* This sets the line height of all elements with the class 'highlight' to 20px */
+  color: plum; /* This sets the text color of all elements with the class 'highlight' to plum */
+  font-family: monospace; /* This sets the font family of all elements with the class 'highlight' to monospace */
+  padding: 4px; /* This adds 4px of padding on all sides of all elements with the class 'highlight' */
+  margin-left: 6px; /* This adds 6px of margin on the left side of all elements with the class 'highlight' */
+  }
+
